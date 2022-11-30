@@ -1,0 +1,110 @@
+/* 
+seletor{
+    Propriedade:valor
+}
+
+Seletores
+   * - vai aplicar em tudo
+   tag HTML
+   #id - id de uma tag HTML
+/
+
+
+        /
+        *{  Sem espaçamento e sem margem 
+            margin: 0px;   -> espessura da margem 0 px 
+            padding: 0px;   -> espessura do padding 0 px
+        /
+
+        /
+        display - inline -> para deixar um do lado do outro 
+        /
+
+        */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#titulo {
+    background-color: rgb(181, 32, 218);
+    color: aliceblue;
+    border: 1px solid #8400ff;
+    padding: 3px;
+    border-radius: 400px;
+}
+
+.texto {
+    font-size: large;
+}
+
+.texto:hover {
+    background-color: rgb(206, 163, 216);
+}
+
+.social {
+    width: 50px;
+
+}
+
+.photo {
+    width: 500px;
+    align-content: flex-end;
+    border: 5px black solid;
+    margin: 0% 5%;
+    margin-bottom: 10px;
+}
+
+.container {
+
+    display: flex;
+
+}
+
+.buton-fix {
+    position: fixed;
+    margin: 0% 12%;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+@media(max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.container>div {
+    width: 300px;
+}
+
+.nav-button {
+    border: 2px solid rgb(206, 163, 216);
+    padding: 1px;
+    font-size: large;
+    margin: 20px;
+    background-color: rgb(197, 193, 193);
+
+
+
+
+}
+
+.nav-button:hover {
+    background-color: rgb(206, 163, 216);
+
+}
+
+hr {
+    display: none;
+}

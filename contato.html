@@ -1,0 +1,89 @@
+<!-- Exemplo de HTML -->
+<!DOCTYPE html> <!-- É essa tag que garante o uso do HTML5 -->
+<html lang="pt-br"> <!-- O atributo lang ajuda a definir o idioma de um elemento (página): 
+    (lang="en" para inglês do EUA, lang="pt" para português ou  lang="pt-br" ) -->
+<head> 
+    <meta charset="UTF-8"> <!-- serve pra informa qual Alfabeto será utilizado  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Ela serve pra trabalhar/integrar ao Internet Explore -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- para se adaptar ao tamnho da tela do usuário -->
+    <title>Contato</title> <!-- É o título da nossa página é o que vai ser exbido na guia ou na janela que vai ser executado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <!-- Cabeçalho do site-->
+    <header>
+        <nav>
+        <ul> <!-- ul lista ordenada | ol -->
+            <li>
+            <a href="index.html">Home</a> <!-- href é a propriedade que diz aonde a ancara vai te levar -->
+            </li>
+            <li>
+            <a href="contato.html">Contato</a>
+            </li>
+        </ul>       
+        </nav>
+    </header>
+    <!-- /cabeçalho do site -->
+
+
+    <!-- Corpo principal do site-->
+    <main>
+        <section> <!-- criar um bloco pra uma sessão -->
+            <div> <!-- Divisoria-->
+                <h1>Entre em contato</h1> <!-- Titúlo que só pode ser usado 1x por página-->
+                    <form>
+                        <p> <!-- Pular um parágrafo-->
+                            <label for="name">Nome</label>
+                            <input name="Name" type="text" id="name">
+                        </p>         
+                        <p>
+                            <label for="email">E-mail</label>
+                            <input name="Email" type="email">
+                        </p>       
+                        <p>
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message" cals="30" rows="3"></textarea>
+                        </p>
+                        <p>
+                            <button id="send">enviar</button> <!-- Butão para enviar as informações-->
+                        </p>
+                 </form>
+                
+             </div>
+             <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.027486990686!2d-43.176057285082855!3d-22.912356985008948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9981df4ca28bd7%3A0x3b810d331d494291!2sAv.%20Pres.%20Wilson%2C%20118%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020030-020!5e0!3m2!1spt-BR!2sbr!4v1667923259468!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+    </main>
+    <!-- /Corpo principal do site-->
+
+    <hr>
+    <!-- Rodapé do site-->
+    <footer>
+        <div>
+            <a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-vitor-estevam-82ba85207/">
+            <img width= "50" src="assets/images/Likendin.png" alt ="Linkedin">
+            </a>
+
+            <a target="_blank" href="https://github.com/Najmate">
+            <img width= "50" src="assets/images/GitHub.png" alt="GitHub">
+            </a>
+        </div>
+
+        <div> <h4>Calveludo - desenvolvedor FullStack Javascript</h4></div>
+
+    </footer>
+   <!-- /Rodapé do site-->
+</body>
+
+</html>
+
+<!-- head
+cabeçalho da página, nele contem informações da nossa página -->
+
+<!-- body
+corpo da página que o usuário consegue interagir -->
+
+<!-- Meta Tags
+descrevem o conteúdo do seu site para os buscadores. os meta dados é quando estamos explicando a nossa propria página.
+-->

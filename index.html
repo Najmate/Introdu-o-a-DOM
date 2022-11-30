@@ -1,0 +1,104 @@
+<!-- Exemplo de HTML -->
+<!DOCTYPE html> <!-- É essa tag que garante o uso do HTML5 -->
+<html lang="pt-br">
+<!-- O atributo lang ajuda a definir o idioma de um elemento (página): 
+    (lang="en" para inglês do EUA, lang="pt" para português ou  lang="pt-br" ) -->
+
+<head>
+    <meta charset="UTF-8"> <!-- serve pra informa qual Alfabeto será utilizado  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Ela serve pra trabalhar/integrar ao Internet Explore -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- para se adaptar ao tamnho da tela do usuário -->
+    <title>Home</title>
+    <!-- É o título da nossa página é o que vai ser exbido na guia ou na janela que vai ser executado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho do site-->
+    <header>
+        <nav>
+            <!-- ul lista não ordenada | ol lista ordenada (númerica) -->
+            <div align="left">
+                <li class="nav-button">
+                    <a href="index.html">Home</a> <!-- href é a propriedade que diz aonde a ancara vai te levar -->
+                </li>
+                <li class="nav-button">
+                    <a href="contato.html">Contato</a>
+                </li>
+            </div>
+        </nav>
+    </header>
+    <!-- /cabeçalho do site -->
+    <hr> <!-- Separação de documentos, como navegação(header) e cabeçalho(footer) -->
+
+    <!-- Corpo principal do site-->
+    <main>
+        <section class="container">
+            <!-- criar um bloco pra uma sessão -->
+            <div>
+                <!-- Divisoria-->
+                <h1 id="titulo">Calveludo</h1> <!-- Titúlo que só pode ser usado 1x por página-->
+                <br>
+                <p id='frase' class="texto">
+                    <!-- Pular um parágrafo-->
+                    "O maior medo do ser humano, é ficar calvo!!!"
+                </p>
+                <br>
+                <p id='frase2' class="texto">
+                    "Eu juro... É a saideira, da saideira, da saideira!"
+                </p>
+                <br>
+                <p id='frase3' class="texto">
+                    "Eu só bebo em algumas poucas circunstâncias: quando estou feliz, quando estou triste, quando estou
+                    sozinho, quando estou acompanhado, quando estou sem fome e quando estou com fome. Fora isso, nem
+                    toco na bebida. A não ser que eu esteja com sede."
+                </p>
+
+            </div>
+            <div>
+                <img id="foto1" class="photo" src="https://i.ytimg.com/vi/DukWMgAu69E/maxresdefault.jpg"
+                    alt="um homem calvo no topo da cabeça e com cabelos na lateral">
+
+
+                <button class="buton-fix" onmouseout="handleOut()" onmousemove="handleMove()"
+                    onclick="handleClick()">Mudar personagem</button>
+
+            </div>
+        </section>
+    </main>
+    <!-- /Corpo principal do site-->
+    <p></p>
+    <hr>
+    <!-- Rodapé do site-->
+    <br>
+    <br>
+    <footer>
+        <div>
+
+            <img class="social" src="assets/images/Likendin.png" alt="Linkedin">
+            <img class="social" src="assets/images/GitHub.png" alt="GitHub">
+
+        </div>
+
+        <div>
+            <h4>Calveludo - desenvolvedor FullStack Javascript</h4>
+        </div>
+
+    </footer>
+    <!-- /Rodapé do site-->
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
+
+<!-- head
+cabeçalho da página, nele contem informações da nossa página -->
+
+<!-- body
+corpo da página que o usuário consegue interagir -->
+
+<!-- Meta Tags
+descrevem o conteúdo do seu site para os buscadores. os meta dados é quando estamos explicando a nossa propria página.
+-->

@@ -1,0 +1,64 @@
+li { 
+            display: inline; 
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #titulo{
+            background-color: rgb(181, 32, 218);
+            color: aliceblue;
+            border: 1px solid #8400ff;
+            padding: 3px;
+            margin: 3px;
+        }
+
+        .texto {
+            font-size: small;
+        }
+
+        .texto:hover{
+            background-color:rgb(206, 163, 216);
+        }
+        .mob-5{
+            margin-bottom: 5px;
+        }
+
+        .social{
+            width: 50px;
+
+        }
+
+        .photo{
+            width: 800px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        @media(max-width: 500px){
+            .container {
+                flex-direction: column;
+            }
+        }
+        .container > div {
+            width:300px;
+        }
+
+        .nav-button{
+            margin: 100px;
+            border: 1px solid rgb(206, 163, 216);
+            padding: 10px;
+            font-size: large;
+
+        }
+        .nav-button:hover{
+            background-color: rgb(206, 163, 216);
+            color: white;
+        }
+      
+        hr {
+            display: none;
+        }
